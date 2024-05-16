@@ -41,7 +41,7 @@ app.post("/", async (req, res) => {
     title: req.body.title,
     description: req.body.description,
     imag_url: req.body.image_url,
-    trailer_url: req.body.trailer_url
+    
   })
 
 
